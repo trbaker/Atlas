@@ -1,12 +1,4 @@
-<!--
 
-To run this demo, you need to replace 'YOUR_API_KEY' with an API key from the ArcGIS Developers dashboard.
-
-Sign up for a free account and get an API key.
-
-https://developers.arcgis.com/documentation/mapping-apis-and-services/get-started/
-
--->
 
 <html>
 <head>
@@ -29,7 +21,6 @@ https://developers.arcgis.com/documentation/mapping-apis-and-services/get-starte
     "esri/config",
     "esri/Map",
     "esri/views/MapView",
-
     "esri/layers/FeatureLayer"
 
   ], function(esriConfig,Map, MapView, FeatureLayer) {
@@ -43,8 +34,8 @@ https://developers.arcgis.com/documentation/mapping-apis-and-services/get-starte
   const view = new MapView({
     container: "viewDiv",
     map: map,
-    center: [-118.80543,34.02700],
-    zoom: 13
+    center: [-95.80543,34.02700],
+    zoom: 5
   });
 
 //Trailheads feature layer (points)
